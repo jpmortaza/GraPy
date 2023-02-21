@@ -1,0 +1,3 @@
+agraph==0.0.3
+streamlit==1.18.1
+streamlit-agraph==0.0.45
