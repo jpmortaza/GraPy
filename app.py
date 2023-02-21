@@ -1,8 +1,7 @@
 import streamlit as st
-from streamlit_agraph import agraph, Node, Edge, Config, TripleStore
+from streamlit_agraph import agraph, Node, Edge, Config
 import pandas as pd
 
-st.title("GraPy")
 st.caption("Análise de vínculos e conexões.")
 nodes = []
 edges = []
@@ -83,6 +82,7 @@ with st.expander("Adicionar Conexões"):
 
 # Adiciona um controle deslizante para definir a distância entre os nós
 with st.sidebar:
+    st.title("GraPy")
     node_distance = st.slider("Modificar visualização", min_value=50, max_value=500, value=150)
     node_size = st.slider("Tamanho dos nós", min_value=1, max_value=100, value=20)
     select_hierarchical = st.checkbox('Ativar Hierarquia')
