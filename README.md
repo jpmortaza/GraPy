@@ -1,4 +1,5 @@
 # GraPy - Análise de Vínculos e Conexões
+![descrição da imagem](https://raw.githubusercontent.com/jpmortaza/GraPy/main/img/Captura%20de%20Tela%202023-02-21%20a%CC%80s%2016.22.37.png)
 
 GraPy é uma aplicação de análise de vínculos e conexões desenvolvida em Python. 
 
